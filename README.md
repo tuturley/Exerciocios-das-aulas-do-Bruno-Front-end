@@ -1,2 +1,2 @@
-# Exerc-cios-Aulas
+# Exercícios Aulas
 Atividades utilizadas em sala de aula para a disciplina de Front End
