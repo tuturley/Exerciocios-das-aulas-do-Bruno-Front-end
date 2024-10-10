@@ -1,0 +1,20 @@
+.profile-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    width: 300px;
+    text-align: center;
+}
+.highlight {
+    background-color: yellow !important; /* Altera a cor de fundo para amarelo */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+.programador {
+    background-color: #f0f8ff;
+}
+.designer {
+    background-color: #fff0f5;
+}
+.musico {
+    background-color: #f5fffa;
+}
