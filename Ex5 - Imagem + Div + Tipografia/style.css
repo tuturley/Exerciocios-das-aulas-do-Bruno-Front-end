@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #222;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  
+  .nav-links a {
+    
+    color: #fff;
+  }
+  
+  /* Hero */
+  .hero {
+    background-image: url('https://www.fiap.com.br/imgs/institucional/photos-gallery/large/19.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+  }
+  
+  /* .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  } */
+  
+  .hero-text {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  
+  .card {
+    width: 200px;
+    height: 150px;
+    background-color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Cores específicas dos cards */
+  .card-azul {
+    background-color: #3498db;
+  }
+  
+  .card-verde {
+    background-color: #2ecc71;
+  }
+  
+  .card-vermelho {
+    background-color: #e74c3c;
+  }
+  
