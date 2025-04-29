@@ -5,9 +5,13 @@
     box-sizing: border-box;
   }
   
+  body{
+    background-color: #1D428A;
+    color: #ffc72c;
+  }
   /* Navbar */
   .header {
-    background-color: #222;
+    background-color: #ffc72c;
     color: #fff;
     font-size: 20px;
   }
@@ -15,7 +19,7 @@
   
   .nav-links a {
     
-    color: #fff;
+    color: #1D428A;
   }
   
   /* Hero */
@@ -25,6 +29,11 @@
     background-position: center;
     height: 400px;
     text-align: center;
+  }
+
+  .hero a{
+    color: #fff;
+    font-size: 26px;
   }
   
   /* .hero::after {
@@ -40,26 +49,20 @@
     font-weight: bold;
   }
 
+
   
   .card {
     width: 200px;
     height: 150px;
-    background-color: #ccc;
+    background-color: #ffc72c;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    margin: 10px;
+    text-align: center
   }
   
-  /* Cores específicas dos cards */
-  .card-azul {
-    background-color: #3498db;
-  }
-  
-  .card-verde {
-    background-color: #2ecc71;
-  }
-  
-  .card-vermelho {
-    background-color: #e74c3c;
+  .titulo-card, .descricao-card {
+    color: #1D428A;
   }
   
