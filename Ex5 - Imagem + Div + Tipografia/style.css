@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Font Valorant";
+  src: url(./fonts/Valorant\ Font.ttf);
+}
+
+
 /* Reset básico */
 * {
     margin: 0;
@@ -5,6 +11,11 @@
     box-sizing: border-box;
   }
   
+  html{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+  }
+
   body{
     background-color: #1D428A;
     color: #ffc72c;
@@ -14,6 +25,8 @@
     background-color: #ffc72c;
     color: #fff;
     font-size: 20px;
+    width: 100dvw;
+    height:calc(100vh - 450px);
   }
   
   
@@ -27,13 +40,17 @@
     background-image: url('https://www.fiap.com.br/imgs/institucional/photos-gallery/large/19.png');
     background-size: cover;
     background-position: center;
+    background-attachment:fixed;
     height: 400px;
     text-align: center;
+    font-family: "Font Valorant", sans-serif;
   }
 
   .hero a{
     color: #fff;
     font-size: 26px;
+    font-family: "Oswald", sans-serif;
+    line-height: 15px;
   }
   
   /* .hero::after {
@@ -44,25 +61,40 @@
   } */
   
   .hero-text {
-    color: white;
+    color: rgb(229, 255, 0);
     font-size: 48px;
     font-weight: bold;
   }
 
-
+.painel{
+  font-size: 25px;
+}
   
   .card {
     width: 200px;
-    height: 150px;
+    height: 180px;
     background-color: #ffc72c;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
     color: white;
-    margin: 10px;
-    text-align: center
+    margin: 30px 15px;
+    padding: 0px 10px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 13% 12% 15% 14% / 13% 11% 15% 16% 
   }
-  
+
+  .card:hover{
+    background-color: aliceblue;
+    border: 2px dashed red;
+  }
+
   .titulo-card, .descricao-card {
     color: #1D428A;
   }
   
+.card p{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+}
