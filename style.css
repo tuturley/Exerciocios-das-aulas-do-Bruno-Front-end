@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Font Valorant";
+  src: url(./fonts/Valorant\ Font.ttf);
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+  }
+
+  body{
+    background-color: #1D428A;
+    color: #ffc72c;
+  }
+  /* Navbar */
+  .header {
+    background-color: #ffc72c;
+    color: #fff;
+    font-size: 20px;
+    width: 100dvw;
+    height:calc(100vh - 550px);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+  }
+  .nav-links{
+    display:flex;
+    list-style-type: none;
+    gap: 1.5rem;
+  }
+
+  .nav-links li{
+    display: flex;
+    opacity: 0.5
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #1D428A;
+  }
+    .nav-links a:hover{
+      border-bottom: 2px solid #fff;
+    }
+  
+  /* Hero */
+  .hero {
+    background-image: url('https://www.fiap.com.br/imgs/institucional/photos-gallery/large/19.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    height: 400px;
+    text-align: center;
+    font-family: "Font Valorant", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+  }
+
+  .hero a{
+    color: #fff;
+    font-size: 26px;
+    font-family: "Oswald", sans-serif;
+    line-height: 15px;
+    text-decoration: none;
+    background-color: #1D428A;
+    padding: 0.8rem 1.3rem;
+    border-radius: 0.5rem;
+    z-index: 1;
+  }
+    .hero a:hover{
+      background-color: aliceblue;
+      color: #1D428A;
+      transition: background-color .5s;
+      z-index: 1;
+    }
+  
+  /* .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  } */
+  
+  .hero-text {
+    color: rgb(195, 214, 27);
+    font-size: 48px;
+    font-weight: bold;
+    z-index: 1;
+  }
+.Texto-destaque{
+  color: #1D428A;
+  background-color: #ffc72c;
+  border-radius: 0.5rem;
+}
+
+.painel{
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+  .card {
+    width: 200px;
+    height: 180px;
+    background-color: #ffc72c;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin: 30px 15px;
+    padding: 0px 10px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 13% 12% 15% 14% / 13% 11% 15% 16% ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card:hover{
+    background-color: aliceblue;
+    border: 2px dashed red;
+  }
+
+  .titulo-card, .descricao-card {
+    color: #1D428A;
+  }
+  
+.card p{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+}
